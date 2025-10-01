@@ -1,0 +1,1 @@
+let myMessage: string = "Hello";
