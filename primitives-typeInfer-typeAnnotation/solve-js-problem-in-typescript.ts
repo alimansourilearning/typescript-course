@@ -1,3 +1,3 @@
-function printMyFirstname(name) {
+function printMyFirstname(name: string) {
   console.log(name.toUpperCase());
 }
