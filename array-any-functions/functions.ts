@@ -14,6 +14,6 @@ function getFavoriteNumber(): number {
   return 7;
 }
 
-async function getAnotherNumber(): number {
+async function getAnotherNumber(): Promise<number> {
   return 20;
 }
