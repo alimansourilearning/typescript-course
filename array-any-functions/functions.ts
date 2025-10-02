@@ -13,3 +13,7 @@ function greet(name: string) {
 function getFavoriteNumber(): number {
   return 7;
 }
+
+async function getAnotherNumber(): number {
+  return 20;
+}
