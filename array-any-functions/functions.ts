@@ -7,3 +7,5 @@ function greet(name: string) {
 function addTwoNumbers(x, y) {
   return x + y;
 }
+
+addTwoNumbers(5);
