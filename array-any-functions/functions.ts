@@ -4,8 +4,12 @@ function greet(name: string) {
 
 // greet(42)
 
-function addTwoNumbers(x, y) {
-  return x + y;
-}
+// function addTwoNumbers(x, y) {
+//   return x + y;
+// }
 
-addTwoNumbers(5);
+// addTwoNumbers(5);
+
+function getFavoriteNumber(): number {
+  return 7;
+}
