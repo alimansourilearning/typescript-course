@@ -17,3 +17,6 @@ function getFavoriteNumber(): number {
 async function getAnotherNumber(): Promise<number> {
   return 20;
 }
+
+let names = ["hossein", "sadegh", "javad"];
+names.forEach((item) => item.toUpperCase());
