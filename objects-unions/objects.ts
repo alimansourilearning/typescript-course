@@ -6,9 +6,7 @@ function printCoord(pt: { x: number; y: number }) {
 // printCoord({ x: 5, y: 6, z: 7 });
 
 function printName(name: { firstname: string; lastname?: string }) {
-  if (name.lastname !== undefined) {
-    console.log(name.lastname.toUpperCase());
-  }
+  console.log(name.lastname?.toUpperCase());
 }
 
 printName({ firstname: "ali" });
