@@ -1,5 +1,9 @@
 function printId(id: string | number) {
-  console.log("Your id is: ", id.toUpperCase());
+  if (typeof id === "string") {
+    console.log("Your id is: ", id.toUpperCase());
+  } else {
+    console.log("Your id is: ", id);
+  }
 }
 
 printId(12334);
