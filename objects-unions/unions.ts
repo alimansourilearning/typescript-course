@@ -9,3 +9,7 @@ function printId(id: string | number) {
 printId(12334);
 printId("dkfjsdjflkdsjfl;djlfsdj;fsd");
 // printId({ id: "lksdfjdfjskldkfjlsdjflds" });
+
+function getFirstThree(x: string | string[]) {
+  return x.slice(0, 3);
+}
