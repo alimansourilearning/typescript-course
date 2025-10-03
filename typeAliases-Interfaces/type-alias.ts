@@ -9,3 +9,9 @@ type Id = string | number;
 function showId(id: Id) {
   console.log("Your id is:", id);
 }
+
+type UserName = string;
+
+function handleName(name: string): UserName {
+  return name;
+}
