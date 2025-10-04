@@ -18,6 +18,6 @@ function handleFullname(firstname: "mohammad" | "ali", lastname: string) {
   return firstname + lastname;
 }
 
-const someoneName = { firstname: "ali" as "ali", lastname: "mansouri" };
+const someoneName = { firstname: "ali", lastname: "mansouri" };
 
-handleFullname(someoneName.firstname, someoneName.lastname);
+handleFullname(someoneName.firstname as "ali", someoneName.lastname);
