@@ -19,3 +19,15 @@ const newBear: NewBear = {
   name: "Winnie",
   honey: true,
 };
+
+interface FullName {
+  firstname: string;
+}
+interface FullName {
+  lastname: string;
+}
+
+const fullName: FullName = {
+  firstname: "ali",
+  lastname: "mansouri",
+};
