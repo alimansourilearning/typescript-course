@@ -1,1 +1,1 @@
-let state = "pending";
+let state: "pending" = "pending";
