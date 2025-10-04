@@ -12,3 +12,4 @@ checkPermission("viewer");
 // checkPermission("guest")
 
 const myStatus = "success";
+let firstname = "ali";
