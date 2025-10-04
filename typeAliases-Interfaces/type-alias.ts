@@ -15,3 +15,8 @@ type UserName = string;
 function handleName(name: string): UserName {
   return name;
 }
+
+type Animal = { name: string };
+type Bear = Animal & { honey: boolean };
+
+const bear: Bear = { name: "Winnie", honey: true };
