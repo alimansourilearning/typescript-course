@@ -3,5 +3,5 @@ myElement.disabled = true;
 
 // let x = "hello" as number
 
-let a = "sk;dlaskdlsk;ldskad;s"
-let b = a as any as number;
+// let a = "sk;dlaskdlsk;ldskad;s"
+// let b = a as any as number;
