@@ -17,3 +17,5 @@ let firstname = "ali";
 function handleFullname(firstname: "mohammad" | "ali", lastname: string) {
   return firstname + lastname;
 }
+
+const someoneName = { firstname: "ali", lastname: "mansouri" };
