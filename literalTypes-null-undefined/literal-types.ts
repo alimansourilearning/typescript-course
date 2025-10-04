@@ -1,2 +1,4 @@
 let state: "pending" = "pending";
-state = "done";
+// state = "done";
+
+type UserRole = "admin" | "editor" | "viewer";
