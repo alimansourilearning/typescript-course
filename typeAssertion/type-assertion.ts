@@ -1,2 +1,2 @@
-const myElement = document.getElementById("abc123") as HTMLButtonElement;
+const myElement = <HTMLButtonElement>document.getElementById("abc123");
 myElement.disabled = true;
