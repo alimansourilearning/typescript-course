@@ -13,3 +13,7 @@ checkPermission("viewer");
 
 const myStatus = "success";
 let firstname = "ali";
+
+function handleFullname(firstname: "mohammad" | "ali", lastname: string) {
+  return firstname + lastname;
+}
