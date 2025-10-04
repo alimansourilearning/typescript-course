@@ -19,3 +19,5 @@ function handleFullname(firstname: "mohammad" | "ali", lastname: string) {
 }
 
 const someoneName = { firstname: "ali", lastname: "mansouri" };
+
+handleFullname(someoneName.firstname, someoneName.lastname);
