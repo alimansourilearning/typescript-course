@@ -21,9 +21,9 @@ type Bear = Animal & { honey: boolean };
 
 const bear: Bear = { name: "Winnie", honey: true };
 
-type NewFullName = {
-  firstname: string;
-};
-type NewFullName = {
-  lastname: string;
-}
+// type NewFullName = {
+//   firstname: string;
+// };
+// type NewFullName = {
+//   lastname: string;
+// }
