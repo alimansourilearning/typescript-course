@@ -7,6 +7,8 @@ function checkPermission(userRole: UserRole) {
   console.log("user role is:", userRole);
 }
 
-checkPermission("admin")
-checkPermission("viewer")
-checkPermission("guest")
+checkPermission("admin");
+checkPermission("viewer");
+// checkPermission("guest")
+
+const myStatus = "success";
