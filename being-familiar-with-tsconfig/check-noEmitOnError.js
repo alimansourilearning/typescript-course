@@ -1,3 +1,3 @@
-"use strict";
-let greetingMessage = "Hello";
-let newMessage = "Thanks";
+var greetingMessage = "Hello";
+var newMessage = "Thanks";
+var newGreetingMessage = "Hello, thanks";
