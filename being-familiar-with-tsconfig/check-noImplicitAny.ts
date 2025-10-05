@@ -1,3 +1,3 @@
-function calculateTax(price, taxPercentage) {
+function calculateTax(price: number, taxPercentage: number) {
   return price * taxPercentage;
 }
