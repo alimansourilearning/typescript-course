@@ -1,0 +1,1 @@
+let greetingMessage: number = "Hello";
