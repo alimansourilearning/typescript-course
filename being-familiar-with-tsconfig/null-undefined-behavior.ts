@@ -1,3 +1,3 @@
 let myFirstname: string = "ali";
-myFirstname = null;
-myFirstname = undefined;
+// myFirstname = null;
+// myFirstname = undefined;
