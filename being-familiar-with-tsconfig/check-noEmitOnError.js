@@ -1,3 +1,5 @@
-var greetingMessage = "Hello";
-var newMessage = "Thanks";
-var newGreetingMessage = "Hello, thanks";
+"use strict";
+// let greetingMessage: number = "Hello";
+// let newMessage: boolean = "Thanks";
+// let newGreetingMessage: number = "Hello, thanks";
+// let anotherGreetingMessage: boolean = "Hello, thank you so much";
