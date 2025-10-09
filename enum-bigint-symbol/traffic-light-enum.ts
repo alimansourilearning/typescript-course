@@ -13,3 +13,4 @@ function handleTrafficLightStatus(status: TrafficLightStatus) {
     console.log("WAIT!");
   }
 }
+handleTrafficLightStatus(3)
