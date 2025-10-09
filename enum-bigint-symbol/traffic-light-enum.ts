@@ -1,5 +1,5 @@
 enum TrafficLightStatus {
-  RED = 12,
+  RED,
   GREEN,
   YELLOW,
 }
