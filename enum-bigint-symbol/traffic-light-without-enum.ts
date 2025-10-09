@@ -11,3 +11,5 @@ function showTrafficLightStatus(status: number) {
     console.log("WAIT!");
   }
 }
+
+showTrafficLightStatus(3)
