@@ -5,8 +5,8 @@ if (firstValue === thirdValue) {
 
 const secondValue = Symbol();
 const fourthValue = Symbol();
-if (secondValue === fourthValue) {
-}
+// if (secondValue === fourthValue) {
+// }
 
 // console.log(firstValue);
 
