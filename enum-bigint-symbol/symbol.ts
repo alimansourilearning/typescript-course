@@ -1,4 +1,6 @@
 let firstValue = Symbol("value");
+const secondValue = Symbol();
+
 // console.log(firstValue);
 
 // console.log(Symbol() === Symbol());
