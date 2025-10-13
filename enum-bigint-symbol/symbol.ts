@@ -1,5 +1,8 @@
 let firstValue = Symbol("value");
+let thirdValue = Symbol();
+
 const secondValue = Symbol();
+const fourthValue = Symbol();
 
 // console.log(firstValue);
 
